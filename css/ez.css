@@ -1,0 +1,61 @@
+#editor {
+
+}
+
+#preview {
+  position: relative;
+  width: 512px;
+  height: 512px;
+  margin: 50px auto;
+  background: url(../img/button.jpg) center center;
+}
+
+#button {
+  position: absolute;
+  width: 310px;
+  height: 310px;
+  top: 139px;
+  left: 142px;
+}
+
+#overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: url(../img/no-sign.png) center center;
+  background-size: 100%;
+}
+
+#overlay.front {
+  z-index: 100;
+}
+
+#overlay.off {
+  display: none;
+}
+
+#text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+
+#controls {
+  width: 400px;
+  margin: 50px auto;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+}
